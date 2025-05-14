@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Dent', 'Glass_Break', 'Scratch']
+
+roboflow:
+  workspace: trialworkspace-n8ail
+  project: car-damage-detection-dzxim
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trialworkspace-n8ail/car-damage-detection-dzxim/dataset/1
